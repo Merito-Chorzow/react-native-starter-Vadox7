@@ -260,3 +260,9 @@ Aplikacja stworzona jako zadanie projektowe React Native.
 
 ### Ustawienia
 ![Ustawienia](screeny/ustawienia.png)
+# Uruchomienie projektu
+
+```bash
+npm install
+npx json-server --host 0.0.0.0 --watch server/db.json --port 3000
+npx expo start -c
