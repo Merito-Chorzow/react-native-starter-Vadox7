@@ -265,4 +265,10 @@ Aplikacja stworzona jako zadanie projektowe React Native.
 ```bash
 npm install
 npx json-server --host 0.0.0.0 --watch server/db.json --port 3000
-npx expo start -c
+npx expo start -cgit add README.md
+ Edge cases i testy
+
+- Dodanie notatki (POST /notes)
+- Pobranie GPS (permission dialog)
+- Brak uprawnień do lokalizacji
+- Brak połączenia z API (json-server)
